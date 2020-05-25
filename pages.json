@@ -1,0 +1,87 @@
+{
+	"pages": [
+		{
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "美食",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "我的餐桌",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/address/addressManage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/center/center",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/money/pay",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/money/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path":"pages/about/about",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Good邻居",
+		"navigationBarBackgroundColor": "#b91212",
+		"backgroundColor": "#EFEFEF"
+	},
+	"tabBar": {
+		"color": "#444444",
+		"selectedColor": "#b91212",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/menu/menu",
+				"iconPath": "static/hot-0.png",
+				"selectedIconPath": "static/hot-1.png",
+				"text": "美食"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/tab-cart.png",
+				"selectedIconPath": "static/tab-cart-current.png",
+				"text": "餐桌"
+			},
+			{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/center-0.png",
+				"selectedIconPath": "static/center-1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

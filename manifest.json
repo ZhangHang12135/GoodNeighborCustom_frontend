@@ -1,0 +1,53 @@
+{
+    "name" : "Good邻居",
+    "appid" : "__UNI__A846A19",
+    "description" : "社区外卖",
+    "transformPx" : false,
+    "icons" : [
+        {
+            "sizes" : "分辨率，192x192",
+            "src" : "图片路径"
+        }
+    ],
+    "versionName" : "1.0.2",
+    "versionCode" : 102,
+    "app-plus" : {
+        "usingComponents" : true,
+        "compilerVersion" : 3,
+        "modules" : {
+            "Maps" : {}
+        }
+    },
+    // 5+App特有相关
+    "quickapp" : {},
+    // 快应用特有相关
+    "mp-weixin" : {
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : false
+        },
+        "usingComponents" : true,
+        "appid" : "wx2a93098544c7e53a",
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取用户地址，才能知道商家是否可以配送"
+            }
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "h5" : {
+        "template" : "template.h5.html",
+        "router" : {
+            "mode" : "hash",
+            "base" : "/demo/picture/website/"
+        }
+    }
+}
